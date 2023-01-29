@@ -1,0 +1,17 @@
+.navbar{
+    background-color: rgb(0 111 207);
+    color: #fff;
+}
+.nav-item{
+    margin: 0 15px;
+}
+.nav-link{
+    color: #fff !important;
+}
+.navbar-brand{
+    color: #fff !important;
+}
+.btn-outline-success{
+    color: #fff;
+    border: 2px solid salmon;
+}

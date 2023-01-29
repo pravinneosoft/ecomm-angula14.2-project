@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+img{
+  width: 100%;
+}
+.container{
+  width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  background-color: #00000082 !important;
+}

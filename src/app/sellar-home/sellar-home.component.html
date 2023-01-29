@@ -1,0 +1,29 @@
+
+  <h4>{{productdeletemsg}}</h4>
+<table>
+
+  <thead>
+    <tr>
+      <td>image</td>
+      <td>name</td>
+      <td>price</td>
+      <td>category</td>
+      <td>color</td>
+      <td>description</td>
+      <td>Action</td>
+    </tr>
+  </thead>
+  <tbody >
+    <tr *ngFor="let items of productlists">
+      <td><img src={{items.image}} alt="product images"></td>
+      <td>{{items.name}}</td>
+      <td>{{items.price}}</td>
+      <td>{{items.category}}</td>
+      <td>{{items.color}}</td>
+      <td>{{items.description}}</td>
+      <td><button (click)="deleteproduct(items.id)"><fa-icon [icon]="deleteIcon"></fa-icon>Delete</button>
+          <button routerLink="/sellar-update-product/{{items.id}}">update</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

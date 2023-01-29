@@ -1,0 +1,18 @@
+.image-home{
+   height: 600px;
+   object-fit:fill;
+
+}
+.carousel-caption {
+  position: absolute;
+  right: 0 !important;
+  bottom: 1.25rem;
+  left: 0 !important;
+  padding-top: 1.25rem;
+  background: #00000082;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  width: 100% !important;
+  text-align: center;
+}
+
